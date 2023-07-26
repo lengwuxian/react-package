@@ -1,7 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import STable from './page/sample/s-table';
 import { Link } from 'react-router-dom';
 
 function App() {
