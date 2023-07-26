@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import STable from './page/sample/s-table';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -10,14 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Link to={`table/BBBBBBBBBB`}>表格</Link>
+        <Link to={`list`}>列表</Link>
       </header>
     </div>
   );
