@@ -1,3 +1,4 @@
+import { Counter } from "../page/menu/counter";
 import SList from "../page/sample/s-list";
 import STable from "../page/sample/s-table";
 
@@ -7,4 +8,7 @@ export const sampleRouter = [{
 }, {
   path: "list",
   element: <SList />
+}, {
+  path: "counter",
+  element: <Counter />
 }]
